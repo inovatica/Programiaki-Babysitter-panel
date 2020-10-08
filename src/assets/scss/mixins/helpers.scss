@@ -1,0 +1,37 @@
+@for $i from 0 through 5{
+  .m-#{$i}{margin: 0rem +$i;}
+  .mb-#{$i}{margin-bottom: 0rem +$i;}
+  .mt-#{$i}{margin-top: 0rem +$i;}
+  .ml-#{$i}{margin-left: 0rem +$i;}
+  .mr-#{$i}{margin-right: 0rem +$i;}
+  .p-#{$i}{padding: 0rem +$i;}
+  .pb-#{$i}{padding-bottom: 0rem +$i;}
+  .pt-#{$i}{padding-top: 0rem +$i;}
+  .pl-#{$i}{padding-left: 0rem +$i;}
+  .pr-#{$i}{padding-right: 0rem +$i;}
+
+  .im-#{$i}{margin: 0rem +$i !important;}
+  .imb-#{$i}{margin-bottom: 0rem +$i !important;}
+  .imt-#{$i}{margin-top: 0rem +$i !important;}
+  .iml-#{$i}{margin-left: 0rem +$i !important;}
+  .imr-#{$i}{margin-right: 0rem +$i !important;}
+  .ip-#{$i}{padding: 0rem +$i !important;}
+  .ipb-#{$i}{padding-bottom: 0rem +$i !important;}
+  .ipt-#{$i}{padding-top: 0rem +$i !important;}
+  .ipl-#{$i}{padding-left: 0rem +$i !important;}
+  .ipr-#{$i}{padding-right: 0rem +$i !important;}
+}
+
+.bcg-red{background-color: #d60000}
+.bcg-green{background-color: #1fac06}
+.bcg-blue{background-color: #354cac}
+.bcg-white{background-color: #fff}
+.bcg-black{background-color: #000}
+.text-white{color: #fff}
+.text-black{color: #000}
+.text-grey{color: #616161}
+.text-lightgrey{color: #a6a6a6}
+.text-darkgrey{color: #444444}
+.ucfirst{text-transform: capitalize;}
+.capitalize:first-letter, .capitalize optgroup:first-letter {text-transform: capitalize !important;}
+.flat{margin:0;padding: 0;line-height:1rem;}

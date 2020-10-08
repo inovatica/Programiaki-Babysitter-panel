@@ -1,0 +1,45 @@
+@import "mixins/helpers";
+body{
+  overflow: hidden;
+}
+.hidden {
+  display: none;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+  line-height: unset;
+}
+
+.leftNav {
+  left: -91.66667% !important;
+  transition: all .7s;
+  position: fixed;
+  height: 100vh;
+  z-index: 100;
+
+  &.active {
+    left: 0 !important;
+  }
+
+  &__name {
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+
+  &__user {
+    height: 50vh;
+  }
+  &__more {
+    transition: all .7s;
+    height: 50vh;
+    font-size: 5rem;
+
+    &-aquo {
+      cursor: pointer;
+    }
+  }
+}
+
+.leftNav.active .leftNav__more{
+  transform: scaleX(-1);
+}
